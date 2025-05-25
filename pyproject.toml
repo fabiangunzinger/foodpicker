@@ -1,0 +1,10 @@
+[project]
+name = "foodpicker"
+version = "0.1.0"
+description = "Random food picker"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = []
+
+[project.scripts]
+foodpicker = "foodpicker.main:main"
