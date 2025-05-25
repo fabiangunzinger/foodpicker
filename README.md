@@ -1,12 +1,16 @@
 # Food picker
 
 
-To create new output, run:
+To create the list of foods for the week, run:
 
 ``
 uv run python -m foodpicker/main.py
 ``
 
 
-Food categories
+To add a new food to the database, edit:
+
+``
+foodpicker/data/foods.csv
+``
 
