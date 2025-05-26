@@ -1,86 +1,85 @@
-group,food
-Vegetables,Spinach
-Vegetables,Kale
-Vegetables,Swiss Chard
-Vegetables,Collard Greens
-Vegetables,Romaine Lettuce
-Vegetables,Arugula
-Vegetables,Mustard Greens
-Vegetables,Broccoli
-Vegetables,Cauliflower
-
-Vegetables,Peppers
-Vegetables,Onions
-Vegetables,Mushrooms
-Vegetables,Celery
-Vegetables,Tomatoes
-Vegetables,Cucumbers
-Vegetables,Zucchini
-Vegetables,Asparagus
-Vegetables,Brussels Sprouts
-Vegetables,Artichokes
-Vegetables,Sea Vegetables
-Fruits,Berries
-Fruits,Apples
-Fruits,Pears
-Fruits,Citrus Fruits
-Fruits,Cherries
-Fruits,Plums
-Fruits,Peaches
-Fruits,Nectarines
-Fruits,Kiwi
-Legumes,Lentils
-Legumes,Black Beans
-Legumes,Chickpeas
-Legumes,Pinto Beans
-Whole Grains,Quinoa
-Whole Grains,Black Rice
-Whole Grains,Amaranth
-Whole Grains,Millet
-Whole Grains,Teff
-Whole Grains,Oats
-Animal Proteins,Beef
-Animal Proteins,Lamb
-Animal Proteins,Liver
-Animal Proteins,Poultry
-Animal Proteins,Salmon
-Animal Proteins,Sardines
-Animal Proteins,Anchovies
-Animal Proteins,Eggs
-Dairy,Butter
-Dairy,Ghee
-Dairy,Sheep Cheese
-Dairy,Goat Cheese
-Dairy,Sheep Yogurt
-Dairy,Goat Yogurt
-Fats & Oils,Avocados
-Fats & Oils,Nuts
-Fats & Oils,Seeds
-Fats & Oils,Olive Oil
-Fats & Oils,Avocado Oil
-Fats & Oils,Coconut Oil
-Nuts & Seeds,Almonds
-Nuts & Seeds,Walnuts
-Nuts & Seeds,Pecans
-Nuts & Seeds,Macadamia Nuts
-Nuts & Seeds,Pistachios
-Nuts & Seeds,Chia Seeds
-Nuts & Seeds,Flaxseeds
-Nuts & Seeds,Hemp Seeds
-Nuts & Seeds,Pumpkin Seeds
-Nuts & Seeds,Sesame Seeds
-Sweeteners,Honey
-Sweeteners,Maple Syrup
-Sweeteners,Coconut Sugar
-Sweeteners,Stevia
-Beverages,Water
-Beverages,Herbal Teas
-Beverages,Green Tea
-Beverages,Bone Broth
-Miscellaneous,Turmeric
-Miscellaneous,Cinnamon
-Miscellaneous,Oregano
-Miscellaneous,Basil
-Miscellaneous,Sauerkraut
-Miscellaneous,Kimchi
-Miscellaneous,Dark Chocolate
+group,food,season
+Vegetables,Spinach,"['Mar', 'Apr', 'May', 'Sep', 'Oct', 'Nov']"
+Vegetables,Kale,"['Oct', 'Nov', 'Dec', 'Jan', 'Feb']"
+Vegetables,Swiss Chard,"['May', 'Jun', 'Jul', 'Aug', 'Sep']"
+Vegetables,Collard Greens,"['Oct', 'Nov', 'Dec', 'Jan', 'Feb']"
+Vegetables,Romaine Lettuce,"['May', 'Jun', 'Jul', 'Aug', 'Sep']"
+Vegetables,Arugula,"['Apr', 'May', 'Jun', 'Sep', 'Oct']"
+Vegetables,Mustard Greens,"['Apr', 'May', 'Oct', 'Nov']"
+Vegetables,Broccoli,"['Jun', 'Jul', 'Aug', 'Sep', 'Oct']"
+Vegetables,Cauliflower,"['Jun', 'Jul', 'Aug', 'Sep', 'Oct']"
+Vegetables,Peppers,"['Jul', 'Aug', 'Sep', 'Oct']"
+Vegetables,Onions,"['Jul', 'Aug', 'Sep', 'Oct']"
+Vegetables,Mushrooms,"['All']"
+Vegetables,Celery,"['Jul', 'Aug', 'Sep', 'Oct']"
+Vegetables,Tomatoes,"['Jul', 'Aug', 'Sep']"
+Vegetables,Cucumbers,"['Jun', 'Jul', 'Aug', 'Sep']"
+Vegetables,Zucchini,"['Jun', 'Jul', 'Aug', 'Sep']"
+Vegetables,Asparagus,"['Apr', 'May', 'Jun']"
+Vegetables,Brussels Sprouts,"['Nov', 'Dec', 'Jan', 'Feb']"
+Vegetables,Artichokes,"['Jun', 'Jul', 'Aug']"
+Vegetables,Sea Vegetables,"['All']"
+Fruits,Berries,"['Jun', 'Jul', 'Aug']"
+Fruits,Apples,"['Aug', 'Sep', 'Oct', 'Nov']"
+Fruits,Pears,"['Aug', 'Sep', 'Oct']"
+Fruits,Citrus Fruits,"['Jan', 'Feb', 'Mar']"
+Fruits,Cherries,"['Jun', 'Jul']"
+Fruits,Plums,"['Jul', 'Aug', 'Sep']"
+Fruits,Peaches,"['Jul', 'Aug']"
+Fruits,Nectarines,"['Jul', 'Aug']"
+Fruits,Kiwi,"['Nov', 'Dec', 'Jan', 'Feb']"
+Legumes,Lentils,"['All']"
+Legumes,Black Beans,"['All']"
+Legumes,Chickpeas,"['All']"
+Legumes,Pinto Beans,"['All']"
+Whole Grains,Quinoa,"['All']"
+Whole Grains,Black Rice,"['All']"
+Whole Grains,Amaranth,"['All']"
+Whole Grains,Millet,"['All']"
+Whole Grains,Teff,"['All']"
+Whole Grains,Oats,"['All']"
+Animal Proteins,Beef,"['All']"
+Animal Proteins,Lamb,"['All']"
+Animal Proteins,Liver,"['All']"
+Animal Proteins,Poultry,"['All']"
+Animal Proteins,Salmon,"['All']"
+Animal Proteins,Sardines,"['All']"
+Animal Proteins,Anchovies,"['All']"
+Animal Proteins,Eggs,"['All']"
+Dairy,Butter,"['All']"
+Dairy,Ghee,"['All']"
+Dairy,Sheep Cheese,"['All']"
+Dairy,Goat Cheese,"['All']"
+Dairy,Sheep Yogurt,"['All']"
+Dairy,Goat Yogurt,"['All']"
+Fats & Oils,Avocados,"['All']"
+Fats & Oils,Nuts,"['All']"
+Fats & Oils,Seeds,"['All']"
+Fats & Oils,Olive Oil,"['All']"
+Fats & Oils,Avocado Oil,"['All']"
+Fats & Oils,Coconut Oil,"['All']"
+Nuts & Seeds,Almonds,"['All']"
+Nuts & Seeds,Walnuts,"['All']"
+Nuts & Seeds,Pecans,"['All']"
+Nuts & Seeds,Macadamia Nuts,"['All']"
+Nuts & Seeds,Pistachios,"['All']"
+Nuts & Seeds,Chia Seeds,"['All']"
+Nuts & Seeds,Flaxseeds,"['All']"
+Nuts & Seeds,Hemp Seeds,"['All']"
+Nuts & Seeds,Pumpkin Seeds,"['All']"
+Nuts & Seeds,Sesame Seeds,"['All']"
+Sweeteners,Honey,"['All']"
+Sweeteners,Maple Syrup,"['All']"
+Sweeteners,Coconut Sugar,"['All']"
+Sweeteners,Stevia,"['All']"
+Beverages,Water,"['All']"
+Beverages,Herbal Teas,"['All']"
+Beverages,Green Tea,"['All']"
+Beverages,Bone Broth,"['All']"
+Miscellaneous,Turmeric,"['All']"
+Miscellaneous,Cinnamon,"['All']"
+Miscellaneous,Oregano,"['All']"
+Miscellaneous,Basil,"['Jul', 'Aug', 'Sep']"
+Miscellaneous,Sauerkraut,"['All']"
+Miscellaneous,Kimchi,"['All']"
+Miscellaneous,Dark Chocolate,"['All']"
