@@ -1,3 +1,4 @@
+import ast
 import csv
 from collections import defaultdict
 from datetime import date
@@ -21,10 +22,16 @@ def select_custom_from_dict(grouped_foods, n_per_group):
     current_month = get_current_month()
     result = {}
     for group, items in grouped_foods.items():
-        seasonal = [parse_food_item(name, season) for name, season in items if current_month in eval(season) or "All" in eval(season)]
-        food_names = [f[0] for f in seasonal]
-        if n_per_group.get(group, 0) > 0 and food_names:
-            result[group] = random.sample(food_names, min(n_per_group[group], len(food_names)))
+        seasonal = []
+        non_seasonal = []
+        for name, german, season in items:
+            months = ast.literal_eval(season)
+            label = f"{name} ({german})"
+            if current_month in months or "All" in months:
+                seasonal.append(label)
+            else:
+                non_seasonal.append(label)
+        result[group] = sorted(seasonal) + (["-- Out of season --"] if seasonal and non_seasonal else []) + sorted(non_seasonal)
     return result
 
 
@@ -35,9 +42,10 @@ def load_foods_from_csv(filepath):
         reader = csv.DictReader(lines)
         for row in reader:
             group = row["group"]
-            food = row["food"]
+            food_en = row["food"]
+            food_de = row["food (german)"]
             season = row["season"]
-            grouped[group].append((food, season))
+            grouped[group].append((food_en, food_de, season))            
     return grouped
 
 def export_selection_to_shopping_list_csv(selection, output_dir="shopping_lists"):

@@ -5,20 +5,20 @@ def main():
 
     # Set custom n per group
     n_per_group = {
-
-        "Vegetables": 10,
-        "Fruits": 5,
-        "Legumes": 2,
-        "Whole Grains": 1,
-        "Animal Proteins": 4,
-        "Dairy": 2,
-        "Fats & Oils": 2,
-        "Nuts & Seeds": 2,
-        "Sweeteners": 1,
-        "Beverages": 2,
-        "Miscellaneous": 1,
-
-        "Staples": 1000,
+        "Non-starchy vegetables": 1000,
+        "Starchy vegetables": 1000,
+        "Fruits": 1000,
+        "Legumes": 1000,
+        "Whole Grains": 1000,
+        "Animal Proteins": 1000,
+        "Dairy": 1000,
+        "Fats & Oils": 1000,
+        "Nuts & Seeds": 1000,
+        "Sweeteners": 1000,
+        "Beverages": 1000,
+        "Spices & Herbs": 1000,
+        "Fermented Foods": 1000,
+        "Miscellaneous": 1000,
     }
 
     selected = select_custom_from_dict(grouped_foods, n_per_group)
