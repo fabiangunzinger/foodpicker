@@ -4,7 +4,7 @@
 To create the list of foods for the week, run:
 
 ``
-uv run python -m foodpicker/main.py
+make run
 ``
 
 
